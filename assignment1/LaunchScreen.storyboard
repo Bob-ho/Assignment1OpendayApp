@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" customColorSpace="calibratedWhite" colorSpace="calibratedRGB" red="0" green="1" blue="0" alpha="1"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Welcome to Open Day App" lineBreakMode="tailTruncation" minimumFontSize="10" id="4" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="183" y="218" width="236" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact">
+                                    <rect key="frame" x="95" y="218" width="199" height="20"/>
+                                    <mask key="constraints">
+                                        <include reference="16"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="16" firstAttribute="width" constant="199"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="16"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint id="14" firstItem="4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="95"/>
+                            <constraint id="15" firstItem="4" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="218"/>
+                            <constraint id="17" firstItem="Ze5-6b-2t3" firstAttribute="trailing" secondItem="4" secondAttribute="trailing" constant="106"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="14"/>
+                                <exclude reference="15"/>
+                                <exclude reference="17"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="14"/>
+                                <include reference="15"/>
+                                <include reference="17"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background.jpg" width="2236" height="1440"/>
+        <image name="Art.png" width="300" height="300"/>
+        <image name="BuidingLibrary.jpg" width="960" height="720"/>
+        <image name="BuildingArt.jpg" width="640" height="270"/>
+        <image name="BuildingBusiness.jpg" width="300" height="300"/>
+        <image name="BuildingHealth.jpg" width="1920" height="1080"/>
+        <image name="BuildingIELTS.jpg" width="400" height="279"/>
+        <image name="BuildingLaw.jpg" width="800" height="597"/>
+        <image name="BuildingResearch.jpg" width="460" height="277"/>
+        <image name="BuildingScience.jpg" width="1980" height="1325"/>
+        <image name="business.jpg" width="300" height="300"/>
+        <image name="developer1.jpg" width="859" height="1024"/>
+        <image name="health.jpg" width="300" height="300"/>
+        <image name="ielts.jpg" width="300" height="300"/>
+        <image name="law.jpg" width="300" height="300"/>
+        <image name="Library.jpg" width="300" height="300"/>
+        <image name="Logo.png" width="427" height="427"/>
+        <image name="research.jpg" width="300" height="300"/>
+        <image name="Science.jpg" width="300" height="300"/>
+        <image name="software-developer-success.jpg" width="400" height="300"/>
+    </resources>
+</document>
